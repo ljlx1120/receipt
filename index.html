@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>Receipt Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Please enter your information</h1>
+      <form action="receipt.php">
+        <label for="first_name">Enter your fisrt name:</label>
+        <input id="first_name" name="first_name" class="first_name form-control" placeholder="First Name">
+        <label for="last_name">Enter your last name:</label>
+        <input id="last_name" name="last_name" class="last_name form-control" placeholder="Last Name">
+        <label for="street">Enter street:</label>
+        <input id="street" name="street" class="street form-control" placeholder="Street">
+        <label for="city">Enter city:</label>
+        <input id="city" name="city" class="city form-control" placeholder="City">
+        <label for="zip_code">Enter zip code:</label>
+        <input id="zip_code" name="zip_code" class="zip_code form-control" placeholder="Zip Code">
+        <label for="state">Enter state:</label>
+        <input id="state" name="state" class="state form-control" placeholder="State">
+
+        <button class="btn bg-primary" type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
